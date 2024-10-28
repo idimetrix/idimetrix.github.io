@@ -25,39 +25,40 @@
     "lint": "next lint",
     "prettier": "prettier . --write",
     "type": "tsc --noEmit --incremental",
-    "format": "pnpm run prettier && pnpm run lint && pnpm type",
-    "bootstrap": "pnpm install && pnpm run format"
+    "format": "yarn run prettier && yarn run lint && yarn type",
+    "bootstrap": "yarn install && yarn run format"
   },
   "dependencies": {
+    "clsx": "2.1.1",
+    "framer-motion": "11.11.10",
     "next": "15.0.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "framer-motion": "11.11.10",
     "react-countup": "6.5.3",
+    "react-dom": "18.3.1",
     "react-icons": "5.3.0",
     "react-tsparticles": "2.12.2",
-    "tsparticles-engine": "2.12.0",
     "swiper": "11.1.14",
-    "clsx": "2.1.1",
     "tailwind-merge": "2.5.4",
     "tailwind-scrollbar": "3.1.0",
-    "tsparticles": "2.12.0"
+    "tsparticles": "2.12.0",
+    "tsparticles-engine": "2.12.0"
   },
   "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "4.3.0",
     "@types/node": "22.8.1",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
-    "prettier-plugin-organize-imports": "4.1.0",
-    "@trivago/prettier-plugin-sort-imports": "4.3.0",
-    "prettier": "3.3.3",
-    "prettier-plugin-prisma": "5.0.0",
-    "prettier-plugin-tailwindcss": "0.6.8",
-    "prettier-plugin-xml": "0.1.0",
     "autoprefixer": "10.4.20",
     "eslint": "9.13.0",
     "eslint-config-next": "15.0.1",
     "postcss": "8.4.47",
+    "prettier": "3.3.3",
+    "prettier-plugin-organize-imports": "4.1.0",
+    "prettier-plugin-prisma": "5.0.0",
+    "prettier-plugin-tailwindcss": "0.6.8",
+    "prettier-plugin-xml": "0.1.0",
     "tailwindcss": "3.4.14",
     "typescript": "5.6.3"
-  }
+  },
+  "packageManager": "yarn@4.5.1"
 }

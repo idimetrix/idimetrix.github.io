@@ -35,14 +35,9 @@ next-env.d.ts
 
 .idea
 
-# Yarn cache and log files
-.yarn/*
-!.yarn/cache
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
-
-# Yarn configuration
-.yarnrc.yml
+# Yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
 .pnp.*
