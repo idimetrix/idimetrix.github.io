@@ -34,3 +34,15 @@ yarn-error.log*
 next-env.d.ts
 
 .idea
+
+# Yarn cache and log files
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Yarn configuration
+.yarnrc.yml
+.pnp.*
