@@ -1,29 +1,62 @@
 {
   "name": "idimetrix.github.io",
+  "description": "CTO, Software Architect, Technical Lead, 3X Founder. Linking companies with top tech talents.",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Dmitrii Selikhov",
+    "email": "dmitrii.selikhov@gmail.com",
+    "url": "https://github.com/idimetrix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idimetrix/idimetrix.github.io.git"
+  },
+  "homepage": "https://github.com/idimetrix/idimetrix.github.io#readme",
+  "bugs": {
+    "url": "https://github.com/idimetrix/idimetrix.github.io/issues",
+    "email": "sanidhya.verma12345@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier . --write",
-    "format": "npm run prettier && npm run lint"
+    "type": "tsc --noEmit --incremental",
+    "format": "pnpm run prettier && pnpm run lint && pnpm type",
+    "bootstrap": "pnpm install && pnpm run format"
   },
   "dependencies": {
-    "next": "15.0.0",
+    "next": "15.0.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "framer-motion": "10.18.0",
+    "react-countup": "6.5.3",
+    "react-icons": "5.3.0",
+    "react-tsparticles": "2.12.2",
+    "tsparticles-engine": "2.12.0",
+    "swiper": "11.1.14",
+    "clsx": "2.1.1",
+    "tailwind-merge": "2.5.4",
+    "tailwind-scrollbar": "3.1.0",
+    "tsparticles": "2.12.0"
   },
   "devDependencies": {
-    "@types/node": "22.7.8",
-    "@types/react": "18.3.11",
+    "@types/node": "22.8.1",
+    "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
+    "prettier-plugin-organize-imports": "4.1.0",
+    "@trivago/prettier-plugin-sort-imports": "4.3.0",
+    "prettier": "3.3.3",
+    "prettier-plugin-prisma": "5.0.0",
+    "prettier-plugin-tailwindcss": "0.6.8",
+    "prettier-plugin-xml": "0.1.0",
     "autoprefixer": "10.4.20",
     "eslint": "9.13.0",
-    "eslint-config-next": "15.0.0",
+    "eslint-config-next": "15.0.1",
     "postcss": "8.4.47",
-    "prettier": "3.3.3",
     "tailwindcss": "3.4.14",
     "typescript": "5.6.3"
   }

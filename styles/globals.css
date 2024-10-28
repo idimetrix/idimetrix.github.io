@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.translate-z-0 {
+  transform: translateZ(0px);
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #f13024;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  color: #f13024;
+}
+
+@layer base {
+  body {
+    @apply overflow-hidden bg-secondary leading-relaxed;
+  }
+  .page {
+    @apply h-screen w-full overflow-hidden;
+  }
+  .h1 {
+    @apply mb-8 text-[35px] font-semibold leading-tight md:text-[60px] md:leading-[1.3];
+  }
+  .h2 {
+    @apply mb-4 text-[35px] font-semibold leading-tight md:text-[54px] md:leading-[1.3];
+  }
+  p {
+    @apply font-light leading-[1.8] text-white/60;
+  }
+  .btn,
+  .input {
+    @apply h-[52px];
+  }
+  .input {
+    @apply h-[52px] w-full rounded-lg pl-6;
+  }
+  .input,
+  .textarea {
+    @apply border border-white/20 bg-transparent outline-none placeholder:font-light placeholder:text-white/30 focus:ring-1 focus:ring-accent;
+  }
+  .textarea {
+    @apply h-[180px] w-full resize-none rounded-lg p-6;
+  }
+}
