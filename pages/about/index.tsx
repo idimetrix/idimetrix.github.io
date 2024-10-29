@@ -34,7 +34,7 @@ const About = () => {
           >
             Competent in <br />{" "}
             <ReactTyped
-              className="text-accent text-4xl font-bold leading-normal"
+              className="text-accent text-4xl font-bold leading-none"
               strings={COMPETENCIES}
               typeSpeed={40}
               backSpeed={50}
