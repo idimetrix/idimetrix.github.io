@@ -26,9 +26,7 @@ const Layout: FC<Props> = ({ className, children, ...rest }) => {
       {...rest}
     >
       <Head>
-        <title>
-          {WEBSITE.name} | {WEBSITE.tagline}
-        </title>
+        <title>{`${WEBSITE.name} | ${WEBSITE.tagline}`}</title>
         <meta name="description" content={WEBSITE.description} />
         <meta name="keywords" content={WEBSITE.keywords.join(", ")} />
         <meta name="author" content={WEBSITE.author} />
