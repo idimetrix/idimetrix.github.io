@@ -22,6 +22,7 @@ export const WEBSITE = {
     "CTO, Software Architect, Technical Lead, 3X Founder. Linking companies with top tech talents.",
   keywords: [""],
   about: "",
+  color: "#f13024",
 };
 
 export const SOCIALS: Record<

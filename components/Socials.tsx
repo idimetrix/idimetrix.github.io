@@ -1,14 +1,17 @@
+import { FC, HTMLAttributes } from "react";
 import Link from "next/link";
 import { SOCIALS } from "@/constants";
 import { Social } from "@/types";
 import { cn } from "@/utils";
-import {FC, HTMLAttributes} from "react";
 
 type Props = HTMLAttributes<HTMLDivElement>;
 
-export const Socials: FC<Props> = ({className, ...rest}) => {
+export const Socials: FC<Props> = ({ className, ...rest }) => {
   return (
-    <div className={cn("flex items-center gap-5 text-2xl", className)} {...rest}>
+    <div
+      className={cn("flex items-center gap-5 text-2xl", className)}
+      {...rest}
+    >
       {Object.values(SOCIALS)
         .filter((social) => social.link)
         .map((social) => (

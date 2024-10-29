@@ -1,8 +1,8 @@
 import { AppProps } from "next/app";
 import { useRouter } from "next/router";
 import { AnimatePresence, motion } from "framer-motion";
-import Layout from "../components/Layout";
-import Transition from "../components/Transition";
+import { Layout } from "@/components/Layout";
+import { Transition } from "@/components/Transition";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }: AppProps) {

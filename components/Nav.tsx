@@ -1,3 +1,4 @@
+import { FC, HTMLAttributes } from "react";
 import {
   HiChatBubbleBottomCenterText,
   HiEnvelope,
@@ -8,8 +9,7 @@ import {
 } from "react-icons/hi2";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {FC, HTMLAttributes} from "react";
-import {cn} from "@/utils";
+import { cn } from "@/utils";
 
 export const links = [
   { name: "home", path: "/", Icon: HiHome },
@@ -30,11 +30,17 @@ export const links = [
 
 type Props = HTMLAttributes<HTMLDivElement>;
 
-export const Nav: FC<Props> = ({className, ...rest}) => {
+export const Nav: FC<Props> = ({ className, ...rest }) => {
   const pathname = usePathname();
 
   return (
-    <nav className={cn("flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen", className)} {...rest}>
+    <nav
+      className={cn(
+        "flex flex-col items-center xl:justify-center gap-y-4 fixed h-max bottom-0 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen",
+        className,
+      )}
+      {...rest}
+    >
       <div className="flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-4 md:px-40 xl:px-0 h-[80px] xl:h-max py-8 bg-white/10 backdrop-blur-sm text-3xl xl:text-2xl xl:rounded-full">
         {links.map((link, i) => (
           <Link

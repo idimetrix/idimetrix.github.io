@@ -1,10 +1,10 @@
 import { FC, HTMLAttributes } from "react";
 import { Sora } from "next/font/google";
 import Head from "next/head";
+import { Header } from "@/components/Header";
+import { Nav } from "@/components/Nav";
 import { WEBSITE } from "@/constants";
 import { cn } from "@/utils";
-import {Header} from "@/components/Header";
-import {Nav} from "@/components/Nav";
 import TopLeftImg from "../components/TopLeftImg";
 
 const sora = Sora({
@@ -15,7 +15,7 @@ const sora = Sora({
 
 type Props = HTMLAttributes<HTMLDivElement>;
 
-const Layout: FC<Props> = ({ className, children, ...rest }) => {
+export const Layout: FC<Props> = ({ className, children, ...rest }) => {
   return (
     <main
       className={cn(
@@ -30,7 +30,7 @@ const Layout: FC<Props> = ({ className, children, ...rest }) => {
         <meta name="description" content={WEBSITE.description} />
         <meta name="keywords" content={WEBSITE.keywords.join(", ")} />
         <meta name="author" content={WEBSITE.author} />
-        <meta name="theme-color" content="#f13024" />
+        <meta name="theme-color" content={WEBSITE.color} />
       </Head>
 
       <TopLeftImg />
@@ -41,5 +41,3 @@ const Layout: FC<Props> = ({ className, children, ...rest }) => {
     </main>
   );
 };
-
-export default Layout;
