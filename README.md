@@ -2,9 +2,9 @@
 
 # 🚀CTO, 🏗️Software Architect, 🧑‍💻Technical Lead, 👨‍💼3X Founder.
 
-## 🔗Linking companies with top tech talents. @elevanceit
+## 🔗Linking companies with top tech talents. [@elevanceit](https://github.com/elevanceit)
 
-![CTO, Software Architect, Technical Lead, 3X Founder](/public/website/img_main.png "CTO, Software Architect, Technical Lead, 3X Founder")
+![CTO, Software Architect, Technical Lead, 3X Founder](/public/website/home.png "CTO, Software Architect, Technical Lead, 3X Founder")
 
 [![Ask Me Anything!](https://flat.badgen.net/static/Ask%20me/anything?icon=github&color=black&scale=1.01)](https://github.com/idimetrix "Ask Me Anything!")
 [![GitHub license](https://flat.badgen.net/github/license/idimetrix/idimetrix.github.io?icon=github&color=black&scale=1.01)](https://github.com/idimetrix/idimetrix.github.io/blob/main/LICENSE "GitHub license")
@@ -117,7 +117,8 @@ merging. Make sure you follow community guidelines.
 
 ## :gem: Acknowledgements
 
-Useful resources and dependencies that are used in Modern Portfolio.
+Useful resources and dependencies that are used in the
+[[WEBSITE]](https://idimetrix.github.io/)
 
 ### Production Dependencies
 
