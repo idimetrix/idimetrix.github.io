@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
+import { COMPETENCIES, fadeIn } from "@/constants";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
 import ServiceSlider from "../../components/ServiceSlider";
-import { fadeIn } from "../../constants";
 
 export const serviceData = [];
 
@@ -29,8 +29,7 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
-              tempora eligendi, quisquam tempore sint reiciendis.
+              {COMPETENCIES.join(" • ")}
             </motion.p>
           </div>
 

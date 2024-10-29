@@ -97,4 +97,6 @@ export const SOCIALS: Record<
   },
 };
 
+export * from "./competencies";
+export * from "./rewards";
 export * from "./variants";
