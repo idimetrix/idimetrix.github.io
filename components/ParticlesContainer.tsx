@@ -4,7 +4,6 @@ import { loadFull } from "tsparticles";
 import type { Engine } from "tsparticles-engine";
 
 const ParticlesContainer = () => {
-  // init
   const particlesInit = useCallback(async (engine: Engine) => {
     await loadFull(engine);
   }, []);

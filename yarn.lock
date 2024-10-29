@@ -718,12 +718,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.8.1":
-  version: 22.8.1
-  resolution: "@types/node@npm:22.8.1"
+"@types/node@npm:22.8.2":
+  version: 22.8.2
+  resolution: "@types/node@npm:22.8.2"
   dependencies:
     undici-types: "npm:~6.19.8"
-  checksum: 10c0/83550fdf72a7db5b55eceac3f4fb038844eaee20202bdd2297a8248370cfa08317bda1605b781a8043eda4f173b75e73632e652fc85509eb14dfef78fa17337f
+  checksum: 10c0/c6fa6c54c23e61015cace1517c4101602cae0ff3c4f6604f6cdb89875143921830e5602cabe8b4f90f90363451687a0497f1d07d30be8104fee758d6d44c90ac
   languageName: node
   linkType: hard
 
@@ -2451,7 +2451,7 @@ __metadata:
   resolution: "idimetrix.github.io@workspace:."
   dependencies:
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
-    "@types/node": "npm:22.8.1"
+    "@types/node": "npm:22.8.2"
     "@types/react": "npm:18.3.12"
     "@types/react-dom": "npm:18.3.1"
     autoprefixer: "npm:10.4.20"
@@ -2471,6 +2471,7 @@ __metadata:
     react-dom: "npm:18.3.1"
     react-icons: "npm:5.3.0"
     react-tsparticles: "npm:2.12.2"
+    react-typed: "npm:2.0.12"
     swiper: "npm:11.1.14"
     tailwind-merge: "npm:2.5.4"
     tailwind-scrollbar: "npm:3.1.0"
@@ -3844,6 +3845,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-typed@npm:2.0.12":
+  version: 2.0.12
+  resolution: "react-typed@npm:2.0.12"
+  dependencies:
+    typed.js: "npm:^2.1.0"
+  peerDependencies:
+    react: ">16.8.0"
+  checksum: 10c0/31b0cb66c0245e74058f17a8a6d7496af51a3964a4a4af888312992883833090e0b1d4a0afb91c2ef1c93d3d1d476ad79ff5e9c44f7acfd24f3c75c634e2155e
+  languageName: node
+  linkType: hard
+
 "react@npm:18.3.1":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
@@ -5077,6 +5089,13 @@ __metadata:
     is-typed-array: "npm:^1.1.13"
     possible-typed-array-names: "npm:^1.0.0"
   checksum: 10c0/74253d7dc488eb28b6b2711cf31f5a9dcefc9c41b0681fd1c178ed0a1681b4468581a3626d39cd4df7aee3d3927ab62be06aa9ca74e5baf81827f61641445b77
+  languageName: node
+  linkType: hard
+
+"typed.js@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "typed.js@npm:2.1.0"
+  checksum: 10c0/a85339064b0d96d01622ea4729436a36172aa0b634cf8e07c1735a5dd50bb35e92b97db412c307fa3364dc2c106efbf9ab7a0bd47a5268f5f7034b4a5effdab2
   languageName: node
   linkType: hard
 

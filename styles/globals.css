@@ -2,20 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --primary-color: #131424;
+  --secondary-color: #393a47;
+  --accent-color: #f13024;
+}
+
 .translate-z-0 {
   transform: translateZ(0px);
 }
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
   .swiper-pagination-bullet {
-  background-color: #f13024;
+  background-color: var(--accent-color);
 }
 
 .swiper-button-next:after,
 .swiper-button-prev:after,
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
-  color: #f13024;
+  color: var(--accent-color);
 }
 
 @layer base {
@@ -32,7 +38,7 @@
     @apply mb-4 text-[35px] font-semibold leading-tight md:text-[54px] md:leading-[1.3];
   }
   p {
-    @apply font-light leading-[1.8] text-white/60;
+    @apply font-light leading-[1.8] text-white/90;
   }
   .btn,
   .input {

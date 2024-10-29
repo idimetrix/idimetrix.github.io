@@ -1,5 +1,6 @@
+import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
-import { fadeIn } from "@/constants";
+import { WEBSITE, fadeIn } from "@/constants";
 import Avatar from "../components/Avatar";
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
@@ -17,21 +18,28 @@ const Home = () => {
             className="h1"
           >
             Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            <ReactTyped
+              className="text-accent"
+              strings={[
+                "Digital Reality",
+                "Growth Business",
+                "Scalable Product",
+              ]}
+              typeSpeed={40}
+              backSpeed={50}
+              loop
+            />
           </motion.h1>
 
-          <motion.p
+          <motion.h2
             variants={fadeIn("down", 0.3)}
             initial="hidden"
             animate="show"
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
-          </motion.p>
+            {WEBSITE.name} - {WEBSITE.description}
+          </motion.h2>
 
           <div className="flex justify-center xl:hidden relative">
             <ProjectsBtn />
