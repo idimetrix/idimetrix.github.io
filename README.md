@@ -11,7 +11,7 @@
 [![Maintenance](https://flat.badgen.net/static/Maintained/yes?icon=github&color=black&scale=1.01)](https://github.com/idimetrix/idimetrix.github.io/commits/main "Maintenance")
 [![GitHub branches](https://flat.badgen.net/github/branches/idimetrix/idimetrix.github.io?icon=github&color=black&scale=1.01)](https://github.com/idimetrix/idimetrix.github.io/branches "GitHub branches")
 [![Github commits](https://flat.badgen.net/github/commits/idimetrix/idimetrix.github.io?icon=github&color=black&scale=1.01)](https://github.com/idimetrix/idimetrix.github.io/commits "Github commits")
-[![Netlify Status](https://api.netlify.com/api/v1/badges/721491f5-0b0d-4120-96bd-6bd0480ef1e5/deploy-status)](https://awersome-portfolio.netlify.app/ "Netlify Status")
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://idimetrix.github.io "GitHub Pages")
 [![GitHub issues](https://flat.badgen.net/github/issues/idimetrix/idimetrix.github.io?icon=github&color=black&scale=1.01)](https://github.com/idimetrix/idimetrix.github.io/issues "GitHub issues")
 [![GitHub pull requests](https://flat.badgen.net/github/prs/idimetrix/idimetrix.github.io?icon=github&color=black&scale=1.01)](https://github.com/idimetrix/idimetrix.github.io/pulls "GitHub pull requests")
 
