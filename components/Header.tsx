@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { Logotype } from "@/components/Logotype";
-import Socials from "../components/Socials";
+import {Socials} from "@/components/Socials";
+import {FC, HTMLAttributes} from "react";
+import {cn} from "@/utils";
 
-const Header = () => {
+type Props = HTMLAttributes<HTMLDivElement>;
+
+export const Header:FC<Props> = ({className, ...rest}) => {
   return (
-    <header className="absolute z-30 w-full items-center px-16 xl-px-0 xl:h-[90px]">
+    <header className={cn("absolute z-30 w-full items-center px-16 xl-px-0 xl:h-[90px]", className)} {...rest}>
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
           <Link href="/">
@@ -17,5 +21,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

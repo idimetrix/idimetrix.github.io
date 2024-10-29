@@ -6,7 +6,7 @@ const ProjectsBtn = () => {
   return (
     <div className="mx-auto xl:mx-0">
       <Link
-        href="/work"
+        href="/projects"
         className="relative w-[185px] h-[185px] z-10 flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group"
       >
         <Image

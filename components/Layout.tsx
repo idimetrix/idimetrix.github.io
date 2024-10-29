@@ -3,8 +3,8 @@ import { Sora } from "next/font/google";
 import Head from "next/head";
 import { WEBSITE } from "@/constants";
 import { cn } from "@/utils";
-import Header from "../components/Header";
-import Nav from "../components/Nav";
+import {Header} from "@/components/Header";
+import {Nav} from "@/components/Nav";
 import TopLeftImg from "../components/TopLeftImg";
 
 const sora = Sora({

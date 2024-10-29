@@ -2,10 +2,13 @@ import Link from "next/link";
 import { SOCIALS } from "@/constants";
 import { Social } from "@/types";
 import { cn } from "@/utils";
+import {FC, HTMLAttributes} from "react";
 
-const Socials = () => {
+type Props = HTMLAttributes<HTMLDivElement>;
+
+export const Socials: FC<Props> = ({className, ...rest}) => {
   return (
-    <div className="flex items-center gap-x-5 text-2xl">
+    <div className={cn("flex items-center gap-5 text-2xl", className)} {...rest}>
       {Object.values(SOCIALS)
         .filter((social) => social.link)
         .map((social) => (
@@ -19,7 +22,7 @@ const Socials = () => {
               social.name === Social.GitHub
                 ? "bg-accent rounded-full p-[5px] hover:text-white"
                 : "hover:text-accent",
-              "transition-all duration-300",
+              "transition-all duration-300 hover:scale-110",
             )}
           >
             <social.icon aria-hidden />
@@ -29,5 +32,3 @@ const Socials = () => {
     </div>
   );
 };
-
-export default Socials;
