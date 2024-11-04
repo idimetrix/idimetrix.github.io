@@ -718,12 +718,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:22.8.4":
-  version: 22.8.4
-  resolution: "@types/node@npm:22.8.4"
+"@types/node@npm:22.8.7":
+  version: 22.8.7
+  resolution: "@types/node@npm:22.8.7"
   dependencies:
     undici-types: "npm:~6.19.8"
-  checksum: 10c0/f88d030480630194a9168772462ec09b2d86454f34368c46d2b7fda5dc6e14594b1576fcc5c35cc53b57a4d1e8dd2865a85ae81f34ded0d1af753a0f5d294c25
+  checksum: 10c0/14372885db80059ed6e92c320b2bcd8f7dc271698adce11f51aa0f424a3f82aa1749a4f66321b87043791b894346b2458d514cbb65ce70167c2fd8a78a124947
   languageName: node
   linkType: hard
 
@@ -2451,7 +2451,7 @@ __metadata:
   resolution: "idimetrix.github.io@workspace:."
   dependencies:
     "@trivago/prettier-plugin-sort-imports": "npm:4.3.0"
-    "@types/node": "npm:22.8.4"
+    "@types/node": "npm:22.8.7"
     "@types/react": "npm:18.3.12"
     "@types/react-dom": "npm:18.3.1"
     autoprefixer: "npm:10.4.20"
