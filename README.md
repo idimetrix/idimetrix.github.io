@@ -203,3 +203,7 @@ this repository.
 
 <br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+Built by the team behind [Planoda](https://planoda.com/?utm_source=github&utm_medium=referral&utm_campaign=idimetrix-github-io) — an AI-native work platform, currently pre-launch and building in public.
