@@ -2485,7 +2485,7 @@ __metadata:
     react-tsparticles: "npm:2.12.2"
     react-typed: "npm:2.0.12"
     swiper: "npm:11.1.15"
-    tailwind-merge: "npm:2.5.4"
+    tailwind-merge: "npm:2.6.0"
     tailwind-scrollbar: "npm:3.1.0"
     tailwindcss: "npm:3.4.15"
     tsparticles: "npm:2.12.0"
@@ -4465,10 +4465,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwind-merge@npm:2.5.4":
-  version: 2.5.4
-  resolution: "tailwind-merge@npm:2.5.4"
-  checksum: 10c0/6c3d2a1d44344f373859f005e6366f0dbd7f66131d330a51dbe823dab08f71c388b2efcbb2b6a2170ca469581d27079c25cd40c234ca1356c4893ae99c2febb3
+"tailwind-merge@npm:2.6.0":
+  version: 2.6.0
+  resolution: "tailwind-merge@npm:2.6.0"
+  checksum: 10c0/fc8a5535524de9f4dacf1c16ab298581c7bb757d68a95faaf28942b1c555a619bba9d4c6726fe83986e44973b315410c1a5226e5354c30ba82353bd6d2288fa5
   languageName: node
   linkType: hard
 
